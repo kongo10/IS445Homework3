@@ -1,0 +1,60 @@
+Body 	{
+	width:600px;
+	margin:auto;
+	padding-bottom: 40px;}
+
+hr	{
+	height:8px;
+	background-color:#00FF00;}
+
+nav	{
+	margin:2em;
+	text-align:right;
+	}
+
+nav a	{
+	margin-right:20px;}
+
+a:link	{
+	text-decoration:none;}
+
+a:hover	{
+	Color:red;
+	text-transform:uppercase;
+	text-decoration:underline;}
+
+h1	{
+	text-align:center;}
+
+h2, h3	{
+	text-align:center;
+	color:blue;}
+
+h3	{
+	color:purple;}
+
+footer	{
+	border-top:double;
+	padding-top:5px;
+	margin-top:20px;}
+
+footer P, address{
+	display:inline;
+	font-size:small;
+	margin-right:20px;
+	}
+
+form	{
+	border:solid green;
+	padding:10px;}
+
+img	{
+	width:200px;
+	height:200px;
+	float:right;}
+
+#aboutme	{
+	width:380px;}
+
+#aboutme>h3	{
+	text-align:left;}

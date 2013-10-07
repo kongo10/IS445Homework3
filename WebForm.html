@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>IS445 Homework 3</title>
+</head>
+
+<body>
+	<header>
+           <h1>Kong, Kevin Homework 3</h1>
+        
+	   <hr />
+           <nav>
+              	<a href="Default.html">Home</a>
+	 	<a href="WebForm.html">Web Form Demo</a>
+		<a href="About.html">About Me</a>
+           </nav>
+	   <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    	</header>
+    
+    <h2>Welcome to my Web Form</h2>
+
+    <h3>A demo form for hotel room reservation</h3>
+
+   <form action="#">
+    <fieldset>
+        <legend>Customer Information</legend>
+           <label>
+            	Full name:<input type="text" id="custname" name="custname" size="20" maxlength="50"
+                placeholder="Firstname Lastname" required />
+	   </label>
+        <br />
+           <label>
+            	Email address:<input type="email" id="email" name="email" size="20" maxlength="50" required />
+	   </label>
+        <br />
+           <label>
+            	Phone:<input type="tel" id="tel" name="tel" required />
+	   </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Room Information</legend>
+           <label>
+            	Arrival date:<input type="date" id="arrivaldate" name="arrivaldate" required />
+	   </label>
+        <br />
+           <label>
+            	Arrical time:<input type="time" id="arrivaltime" name="arrivaltime" />
+	   </label>
+        <br />
+           <label>
+            Select a room type:
+            <select id="rmtype" name="rmtype">
+                <option value="Luxury">Luxury</option>
+                <option value="Standard">Standard</option>
+                <option value="Economic">Economic</option>
+            </select>
+           </label>
+        <br />
+           <label>
+            	Number of nights (valid number is from 1 to 30):
+            	<input type="number" id="NumNight" name="NumNight" min="1" max="30" value="1" />
+	   </label>
+        <br />
+           <label>
+            	Number of guests (the maximum guests is 3):
+            	<input type="number" id="NumGuest" name="NumGuest" min="0" max="3" value="0" />
+	   </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Other Information</legend>
+           <label>
+            	Promo code:<input type="text" id="Pcode" name="Pcode" pattern="[a-zA-Z0-9]{4}" size="4" maxlength="4" />
+	   </label>
+        <br />
+           <label>
+            	Speical Note:<textarea id="Comment" name="Comment" cols="40" rows="5" placeholder="Enter your special notes here"></textarea>
+	   </label>
+    </fieldset>
+	<br />
+	   <input type="reset" value="Clear form" /> <input type="submit" value="Request Reservation" />
+   </form>
+	
+   <footer>
+		
+		<p>Kevin Kong  	&#169;</p>
+    	  	<p>Contact Information</p>
+		<address>
+    		<p><a href="mailto:kongo10@gmail.com" id="email"><em>Email: Kongo10@gmail.com</em></a></p>
+    		
+    		<p><em>Phone: (310) 552-2245</em></p>
+		</address>
+    	</footer>
+  </body>
+</html>
